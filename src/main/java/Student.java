@@ -6,6 +6,12 @@ public class Student {
     private long id;
     private ArrayList<Integer> grades;
 
+    public Student(String name, long id, ArrayList<Integer> grades) {
+        this.name = name;
+        this.id = id;
+        this.grades = grades;
+    }
+
     // returns the student's id
     public long getId(){
 
